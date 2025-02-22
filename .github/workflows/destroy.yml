@@ -1,8 +1,7 @@
 name: terraform CICD to destroy
 on:
-    push:
-        branches:
-             - main
+    workflow_dispatch:
+
 
 jobs:
     destroy:
